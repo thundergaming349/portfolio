@@ -29,7 +29,7 @@ export const achievement = {
     ],
     id: [
         {
-            title: "Juara 3 LKS Web Technology JT1 2026",
+            title: "Juara Harapan 2 LKS Web Technology JT1 2026",
             new: true,
             emoticon: "🎖️",
             description:
@@ -54,5 +54,5 @@ export const achievement = {
             description:
                 "Saya memenangkan ISC (Infinity Science Competition) matematika yang diadakan pada tanggal 26 Agustus 2025. Kompetisi ini diikuti oleh siswa SMA, SMK, dan bahkan mahasiswa. Kompetisi ini mencakup kalkulus, khususnya Integral, Limit, Turunan, dan Trigonometri tingkat mahir. Tingkat kesulitan soal ini sangat tinggi, namun tidak lebih sulit daripada OSN atau FSN yang pernah saya ikuti sebelumnya.",
         },
-    ]
+    ],
 };

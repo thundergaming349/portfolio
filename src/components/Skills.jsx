@@ -14,7 +14,7 @@ const Skills = () => {
         id: {
             title: "Keahlian",
             programming: "Pemrograman",
-            tools: "Peralatan & Framework",
+            tools: "Peralatan",
         },
     };
 
