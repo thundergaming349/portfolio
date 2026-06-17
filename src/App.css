@@ -1,0 +1,130 @@
+.nav-btn {
+    position: relative;
+    border: none;
+    background: transparent;
+}
+
+.nav-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f4ae52;
+    transition: width 0.3s ease;
+}
+
+.nav-btn:hover::after {
+    width: 100%;
+}
+
+.github {
+    transition-duration: 200ms;
+}
+.github:hover {
+    transform: scale(1.04);
+    background-color: gray;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.insta {
+    transition-duration: 200ms;
+}
+.insta:hover {
+    transform: scale(1.04);
+    background-color: gray;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin {
+    transition-duration: 200ms;
+}
+.linkedin:hover {
+    transform: scale(1.04);
+    background-color: gray;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.dropcap::first-letter {
+    font-size: 40px;
+    padding-bottom: 0;
+}
+.cardprog {
+    transition-duration: 200ms;
+}
+.cardprog:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.cardtool {
+    transition-duration: 200ms;
+}
+.cardtool:hover {
+    transform: scale(1.04);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-line {
+    width: 2px;
+    background: #303841;
+    min-height: 350px;
+    border-radius: 50%;
+}
+
+.timeline-dot {
+    width: 18px;
+    height: 18px;
+    background: #303841;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot-1 {
+    top: 100px;
+}
+.dot-2 {
+    top: 350px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.fade-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.8s ease;
+}
+
+.zoom-in.show {
+    opacity: 1;
+    transform: scale(1);
+}

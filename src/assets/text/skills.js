@@ -1,54 +1,78 @@
+import html from "../HTML.png";
+import css from "../CSS.png";
+import javascript from "../javascript.png";
+import mysql from "../mysql.png";
+import laravel from "../laravel.png";
+import react from "../react.png";
+import tailwindcss from "../tailwindcss.png";
+import bootstrap from "../bootstrap.png";
+import php from "../php.png";
+import python from "../python.jpg";
+
+import vscode from "../vscode.png";
+import linux from "../linux.png";
+import postman from "../postman.png";
+import pycharm from "../PyCharm.png";
+
 export const skills = {
     programming: [
         {
-            logo: "HTML.png",
+            logo: html,
             name: "HTML",
         },
         {
-            logo: "CSS.png",
+            logo: css,
             name: "CSS",
         },
         {
-            logo: "javascript.png",
+            logo: javascript,
             name: "Javascript",
         },
         {
-            logo: "mysql.png",
+            logo: mysql,
             name: "MySQL",
         },
         {
-            logo: "laravel.png",
+            logo: laravel,
             name: "Laravel",
         },
         {
-            logo: "react.png",
+            logo: react,
             name: "React",
         },
         {
-            logo: "tailwindcss.png",
+            logo: tailwindcss,
             name: "Tailwindcss",
         },
         {
-            logo: "bootstrap",
+            logo: bootstrap,
             name: "Bootstrap",
         },
         {
-            logo: "php.png",
+            logo: php,
             name: "PHP",
+        },
+        {
+            logo: python,
+            name: "Python",
         },
     ],
     tools: [
         {
-            logo: "vscode.png",
+            logo: vscode,
             name: "VS Code",
         },
         {
-            logo: "postman.png",
+            logo: postman,
             name: "Postman",
         },
         {
-            logo: "linux.png",
+            logo: linux,
             name: "Linux",
+        },
+        {
+            logo: pycharm,
+            name: "Pycharm",
         },
     ],
 };
